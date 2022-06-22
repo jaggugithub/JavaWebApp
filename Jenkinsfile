@@ -52,4 +52,11 @@ pipeline {
             }
         }
     }
+    // post {
+    //     success {
+    //         mail to: 'team@example.com',
+    //         subject: "Success Pipeline: ${currentBuild.fullDisplayName}",
+    //         body: "Your Build Is Successfull ${env.BUILD_URL}"
+    //     }
+    // }
 }
